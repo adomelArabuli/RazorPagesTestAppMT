@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesTestAppMT", "RazorPagesTestAppMT\RazorPagesTestAppMT.csproj", "{7A17F05C-91F0-4173-BA37-A8F057277DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A17F05C-91F0-4173-BA37-A8F057277DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A17F05C-91F0-4173-BA37-A8F057277DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A17F05C-91F0-4173-BA37-A8F057277DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A17F05C-91F0-4173-BA37-A8F057277DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB0A86E8-5C37-42AD-A7F1-747990BAE1E5}
+	EndGlobalSection
+EndGlobal
