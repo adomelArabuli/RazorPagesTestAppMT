@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/Account/DisableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxEaXNhYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/Account/Enable2Fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxFbmFibGUyRmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/Account/VerifyAuthenticationCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxWZXJpZnlBdXRoZW50aWNhdGlvbkNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/Checkout.cshtml]
@@ -90,6 +98,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/UpdateOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/User/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/User/GetUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxHZXRVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/a.arabuli/Desktop/RazorPagesTestAppMT/RazorPagesTestAppMT/Pages/_ViewImports.cshtml]

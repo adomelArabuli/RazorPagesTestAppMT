@@ -61,7 +61,7 @@ namespace RazorPagesTestAppMT.Pages.Account
 				}
 				else
 				{
-					ModelState.AddModelError("Verify", "your two factor authe code could not be validated");
+					ModelState.AddModelError("Verify", "your two factor auth code could not be validated");
 					return Page();
 				}
 			}

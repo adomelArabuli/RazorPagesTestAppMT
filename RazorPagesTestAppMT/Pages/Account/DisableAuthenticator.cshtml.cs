@@ -1,15 +1,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RazorPagesTestAppMT.Pages.Account
 {
-    public class ProfileModel : PageModel
+    public class DisableAuthenticatorModel : PageModel
     {
         private readonly UserManager<IdentityUser> _userManager;
 
-		public ProfileModel(UserManager<IdentityUser> userManager)
+		public DisableAuthenticatorModel(UserManager<IdentityUser> userManager)
 		{
 			_userManager = userManager;
 		}
@@ -18,16 +17,10 @@ namespace RazorPagesTestAppMT.Pages.Account
         {
             var user = await _userManager.GetUserAsync(User);
 
-            if(user == null)
-            {
-                ViewData["TwoFactorEnabled"] = false;
-            }
-            else
-            {
-				ViewData["TwoFactorEnabled"] = user.TwoFactorEnabled;
-			}
+            await _userManager.ResetAuthenticatorKeyAsync(user);
+            await _userManager.SetTwoFactorEnabledAsync(user, false);
 
-            return Page();
+            return RedirectToPage("/Index");
         }
     }
 }
