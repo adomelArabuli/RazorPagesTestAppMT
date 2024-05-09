@@ -59,6 +59,10 @@ namespace RazorPagesTestAppMT
 
             app.UseAuthentication();
 
+            // app.useGlobalExceptionHandler();
+            // Request processing, Authentication &
+            // , Loggin & monitoring, Exception Handling, Data manipulation
+
             app.UseAuthorization();
 
             app.MapRazorPages();
